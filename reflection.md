@@ -8,6 +8,7 @@ Answer each question in 3 to 5 sentences. Be specific and honest about what actu
 - List at least two concrete bugs you noticed at the start  
   (for example: "the hints were backwards").
 
+  The new game button does not work, it should get rid of the textbox that tells you to click the new game button and should let you be able to enter in guesses just like how it did in the first game. The hints are misleading, tells you to go lower if the secret is larger and vice versa. The differences between modes are a bit confusing as well. All modes you have to guess the number between 1 and 100 and attempts for normal is 8 while easy which probably should allow more attempts instead allows fewer attempts than normal. 
 ---
 
 ## 2. How did you use AI as a teammate?
@@ -15,6 +16,12 @@ Answer each question in 3 to 5 sentences. Be specific and honest about what actu
 - Which AI tools did you use on this project (for example: ChatGPT, Gemini, Copilot)?
 - Give one example of an AI suggestion that was correct (including what the AI suggested and how you verified the result).
 - Give one example of an AI suggestion that was incorrect or misleading (including what the AI suggested and how you verified the result).
+
+  I used Claude's chat as well as Copilot's inline feature as well. 
+
+  When Claude suggested edits, it made a misleading edit in which the range of the secret was the same for all, I thought this was misleading since I feel easy, normal, and hard should all have different ranges. I was able to verify by understanding the code, and fixing it for myself. 
+
+  One AI suggestion that was correct was describing the logic and finding where that was misleading where the original code was calculating the score. I was able to verify by reading through the code myself. 
 
 ---
 
@@ -25,12 +32,14 @@ Answer each question in 3 to 5 sentences. Be specific and honest about what actu
   and what it showed you about your code.
 - Did AI help you design or understand any tests? How?
 
+  By doing the pytests as well as looking at the actual game and trying it out in different ways. One test was to see whether the hints made sense. This was done both manually and with pytest, it showed that the hints were confusing but after fixing it, it showed what the user would see and that it made sense for the user. AI helped design the pytests for me, and that helped me because I was able to create many tests and see if the code fixes actually worked before verifying it myself manually. 
 ---
 
 ## 4. What did you learn about Streamlit and state?
 
 - How would you explain Streamlit "reruns" and session state to a friend who has never used Streamlit?
 
+  
 ---
 
 ## 5. Looking ahead: your developer habits
