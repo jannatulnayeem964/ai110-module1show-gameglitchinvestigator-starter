@@ -38,8 +38,7 @@ Answer each question in 3 to 5 sentences. Be specific and honest about what actu
 ## 4. What did you learn about Streamlit and state?
 
 - How would you explain Streamlit "reruns" and session state to a friend who has never used Streamlit?
-
-  
+  I would say that reruns are like starting a new game in a guessing game, but with a new secret that you have to guess so that you can play an infinite amount of times. Session state helps so that when you are guessing, the secret stays the same each time. 
 ---
 
 ## 5. Looking ahead: your developer habits
@@ -48,3 +47,5 @@ Answer each question in 3 to 5 sentences. Be specific and honest about what actu
   - This could be a testing habit, a prompting strategy, or a way you used Git.
 - What is one thing you would do differently next time you work with AI on a coding task?
 - In one or two sentences, describe how this project changed the way you think about AI generated code.
+
+  I think I would use AI to understand my code better, and actually try to do the fixes like asking AI to explain the code but not try to fix it. I also really liked the commit message feature which I didn't know to use before, it was very helpful as I often struggle to condense my changes into one sentence or short amount of words. 
